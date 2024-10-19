@@ -7,6 +7,7 @@ import Transaction from './models/Transaction.js'; // Import your model
 dotenv.config(); // Load environment variables
 
 const app = express();
+// eslint-disable-next-line no-undef
 const PORT = process.env.PORT || 5000;
 
 // Middleware
@@ -14,7 +15,10 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB Atlas
-mongoose.connect(process.env.MONGODB_URI, {
+// eslint-disable-next-line no-undef
+const mongoURI = process.env.MONGODB_URI;
+
+mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
