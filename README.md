@@ -1,7 +1,3 @@
-Here’s a sample README file for your project, detailing the steps to set up and run the program using MongoDB Atlas, Express, and React (Vite for frontend).
-
----
-
 # MERN Stack Coding Challenge
 
 This project is a MERN (MongoDB, Express, React, Node.js) stack application. The backend interacts with a third-party API to fetch product transactions and store them in MongoDB, while the frontend displays transaction data in tables and charts.
@@ -105,7 +101,3 @@ To connect to MongoDB Atlas:
 
 ## License
 This project is licensed under the MIT License.
-
----
-
-This README file provides a comprehensive overview of the project along with instructions for setup, running the backend and frontend, and interacting with the APIs. You can customize it further based on your preferences or additional features.
